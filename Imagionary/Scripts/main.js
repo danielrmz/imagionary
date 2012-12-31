@@ -161,6 +161,7 @@
         $(".answer").hide();
         $(".empty").removeClass("empty");
         $(".score").data("score", 0);
+        $(".timer").text("00:00");
 
         stopTimer();
     });
