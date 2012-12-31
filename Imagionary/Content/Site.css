@@ -1,0 +1,174 @@
+﻿body
+{
+    font-size: 12px;
+    font-family: 'Comfortaa', sans-serif;
+    background: #30506D;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.options
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.options li
+{
+    display: inline-block !important;
+    margin: 2px;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+    .options li a
+    {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+
+.options .cosa
+{
+    background: orange;
+}
+
+.options .musica
+{
+    background: red;
+}
+
+.options .serie
+{
+    background: green;
+}
+
+.options .pelicula
+{
+    background: blue;
+}
+
+.restart
+{
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    display: block;
+}
+
+.teams
+{
+    min-height: 20px;
+    width: 100%;
+    background: #444;
+    border-bottom: 1px solid black;
+}
+
+.team1, .team2
+{
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-right: 1px solid black;
+}
+
+.teams input
+{
+    font-size: 20px;
+    width: 100px;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.score
+{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 3px;
+}
+
+.start
+{
+    width: 70px !important;
+    border: 1px solid black;
+    background: silver;
+    color: black;
+}
+
+.toolbox
+{
+    float: right;
+    padding: 10px;
+}
+
+.teams .turn
+{
+    background: green;
+}
+
+.timer
+{
+    font-size: 35px;
+    color: white;  
+}
+
+.result
+{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.answer
+{
+    width: 90%;
+    background: silver;
+    padding: 10px;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+    .answer input
+    {
+        font-size: 40px;
+    }
+
+.options li.empty
+{
+    display: none !important;
+}
+
+.options li.disabled
+{
+    display: none !important;
+}
+
+.options li.selected
+{
+    display: inline-block !important;
+}
+
+    .options li.selected a
+    {
+        cursor: default !important;
+    }
+
+​
