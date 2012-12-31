@@ -106,8 +106,7 @@
 }
 
 .start
-{
-    width: 70px !important;
+{ 
     border: 1px solid black;
     background: silver;
     color: black;
